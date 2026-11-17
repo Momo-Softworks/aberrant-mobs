@@ -1,4 +1,6 @@
 import { Entity } from "@minecraft/server";
+import { registerCombatSubscribers } from "./combat.js";
+import { registerProgressionSubscribers } from "./progression.js";
 
 const MobWhiteList = ["minecraft:ender_dragon", "minecraft:hoglin"]
 
@@ -20,4 +22,9 @@ export function isPlayer(entity) {
     if (!(entity instanceof Entity) || !entity.isValid) return false;
 
     return entity.typeId === "minecraft:player";
+}
+
+export function registerSubscribers() {
+    registerCombatSubscribers();
+    registerProgressionSubscribers()
 }

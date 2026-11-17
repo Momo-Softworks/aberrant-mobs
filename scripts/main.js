@@ -1,3 +1,3 @@
-import { registerSubscribers } from "./combat.js";
+import { registerSubscribers } from "./helper.js";
 
 registerSubscribers();

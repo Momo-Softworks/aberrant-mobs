@@ -47,7 +47,7 @@ function calculateMobAdvantage() {
     });
 }
 
-export function registerSubscribers() {
+export function registerCombatSubscribers() {
     calculateMobAdvantage();
     calculatePlayerAdvantage();
 }
