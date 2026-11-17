@@ -1,5 +1,3 @@
-import { calculatePlayerAdvantage } from "./progession.js";
-import { registerTierCommands } from "./tierCommands.js";
+import { registerSubscribers } from "./combat.js";
 
-registerTierCommands();
-calculatePlayerAdvantage();
+registerSubscribers();
