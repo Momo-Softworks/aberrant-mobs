@@ -5,5 +5,7 @@
     "checkJs": false,
     "noEmit": true
   },
-  "include": ["scripts/**/*.js"]
+  "include": [
+    "behavior_pack/scripts/**/*.js"
+  ]
 }

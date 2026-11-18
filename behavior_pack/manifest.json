@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Aberrant Mobs",
+    "description": "Behavior pack for Aberrant Mobs.",
+    "uuid": "97730333-0a06-41bd-ad69-8a1a6535528c",
+    "version": [
+      0,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "16153d36-2d4e-4515-9f1c-56cec76d5ca8",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "500b5437-5acc-4645-9048-8152c5043926",
+      "version": [
+        0,
+        1,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0"
+    },
+    {
+      "uuid": "fefca3b3-2962-401d-925b-66fddb4c8938",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}

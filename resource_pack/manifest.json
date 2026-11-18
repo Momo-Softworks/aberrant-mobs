@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Aberrant Mobs Resources",
+    "description": "Models, textures, and animations for Aberrant Mobs.",
+    "uuid": "fefca3b3-2962-401d-925b-66fddb4c8938",
+    "version": [
+      0,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "76ca8ef1-a7c4-48b7-b366-359cb30da164",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}
